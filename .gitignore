@@ -1,0 +1,9 @@
+# ignore ALL .log files
+*.log
+
+.env
+
+# ignore ALL files in ANY directory named temp
+temp/
+node_modules/
+api/node_modules/.package-lock.json
