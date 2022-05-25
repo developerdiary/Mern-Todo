@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 
-const url = 'mongodb+srv://developerdiary:zQpxtgQA2v7LbS3z@cluster0.qfl35.mongodb.net/?retryWrites=true&w=majority';
+const url = 'mongodb+srv://developerdiary:zQpxtgQA2v7LbS3z@cluster0.qfl35.mongodb.net/test?retryWrites=true&w=majority';
 
 
 mongoose.connect(url, {
